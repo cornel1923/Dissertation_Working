@@ -1,0 +1,16 @@
+cane_molasses,butter,wheat,walnut
+dill,parsley,garlic,cream_cheese,yogurt,mint
+dill,pepper,onion,olive_oil,garlic,yogurt,rice,zucchini
+tomato,olive_oil,lemon,milk,onion
+lamb,tomato,wheat,onion,beef,olive_oil,black_pepper,cumin,parsley,garlic,bell_pepper,egg
+butter,wheat,vanilla,egg,strawberry
+wheat,yeast
+tomato,butter,beef,milk_fat,macaroni,bell_pepper,yogurt,garlic,mint,milk
+tomato,olive_oil,pepper,onion,mushroom,garlic,bell_pepper,mozzarella_cheese,chicken
+butter,wheat,onion,yeast,black_pepper,chicken,rice,egg,milk
+tomato,olive_oil,onion,black_pepper,cumin,parsley,garlic,butter,yogurt,chicken,bread
+pepper,wheat,onion,beef,garlic,bell_pepper,yogurt,vegetable_oil,egg
+onion,potato,walnut,carrot,garlic,bell_pepper,chicken,bread
+tomato,olive_oil,pepper,mushroom,onion,potato,cayenne,garlic,chicken
+butter,vinegar,garlic,bell_pepper,yogurt,egg
+tomato,pepper,green_bell_pepper,beef,onion,cayenne

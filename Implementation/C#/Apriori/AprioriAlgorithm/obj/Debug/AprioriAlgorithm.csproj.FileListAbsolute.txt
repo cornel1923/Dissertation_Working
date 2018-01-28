@@ -1,0 +1,25 @@
+C:\Users\Omar\Downloads\2-Apriori Source Code\AprioriAlgorithm\bin\Debug\AprioriAlgorithm.dll
+C:\Users\Omar\Downloads\2-Apriori Source Code\AprioriAlgorithm\bin\Debug\AprioriAlgorithm.pdb
+C:\Users\Omar\Downloads\2-Apriori Source Code\AprioriAlgorithm\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Omar\Downloads\2-Apriori Source Code\AprioriAlgorithm\obj\Debug\AprioriAlgorithm.dll
+C:\Users\Omar\Downloads\2-Apriori Source Code\AprioriAlgorithm\obj\Debug\AprioriAlgorithm.pdb
+C:\Users\Omar\Desktop\Git\Apriori Source Code\AprioriAlgorithm\bin\Debug\AprioriAlgorithm.dll
+C:\Users\Omar\Desktop\Git\Apriori Source Code\AprioriAlgorithm\bin\Debug\AprioriAlgorithm.pdb
+C:\Users\Omar\Desktop\Git\Apriori Source Code\AprioriAlgorithm\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Omar\Desktop\Git\Apriori Source Code\AprioriAlgorithm\obj\Debug\AprioriAlgorithm.dll
+C:\Users\Omar\Desktop\Git\Apriori Source Code\AprioriAlgorithm\obj\Debug\AprioriAlgorithm.pdb
+D:\Git\Apriori Source Code\AprioriAlgorithm\bin\Debug\AprioriAlgorithm.dll
+D:\Git\Apriori Source Code\AprioriAlgorithm\bin\Debug\AprioriAlgorithm.pdb
+D:\Git\Apriori Source Code\AprioriAlgorithm\obj\Debug\ResolveAssemblyReference.cache
+D:\Git\Apriori Source Code\AprioriAlgorithm\obj\Debug\AprioriAlgorithm.dll
+D:\Git\Apriori Source Code\AprioriAlgorithm\obj\Debug\AprioriAlgorithm.pdb
+C:\Users\cornelg\Desktop\Apriori-Algorithm-master\AprioriAlgorithm\bin\Debug\AprioriAlgorithm.dll
+C:\Users\cornelg\Desktop\Apriori-Algorithm-master\AprioriAlgorithm\bin\Debug\AprioriAlgorithm.pdb
+C:\Users\cornelg\Desktop\Apriori-Algorithm-master\AprioriAlgorithm\obj\Debug\AprioriAlgorithm.dll
+C:\Users\cornelg\Desktop\Apriori-Algorithm-master\AprioriAlgorithm\obj\Debug\AprioriAlgorithm.pdb
+C:\Users\cornelg\Desktop\Apriori-Algorithm-master\AprioriAlgorithm\obj\Debug\AprioriAlgorithm.csprojResolveAssemblyReference.cache
+D:\Disertatie\Git\Dissertation\Apriori\AprioriAlgorithm\bin\Debug\AprioriAlgorithm.dll
+D:\Disertatie\Git\Dissertation\Apriori\AprioriAlgorithm\bin\Debug\AprioriAlgorithm.pdb
+D:\Disertatie\Git\Dissertation\Apriori\AprioriAlgorithm\obj\Debug\AprioriAlgorithm.dll
+D:\Disertatie\Git\Dissertation\Apriori\AprioriAlgorithm\obj\Debug\AprioriAlgorithm.pdb
+D:\Disertatie\Git\Dissertation\Apriori\AprioriAlgorithm\obj\Debug\AprioriAlgorithm.csprojResolveAssemblyReference.cache

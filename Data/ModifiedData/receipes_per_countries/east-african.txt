@@ -1,0 +1,11 @@
+onion,chicken,soy_sauce,ginger,cinnamon
+cane_molasses,vinegar,coriander,beef,onion,cayenne,parsley,ginger,cumin,garlic,wheat_bread,yogurt,vegetable_oil,tamarind,egg,bread
+butter,pepper,onion,cardamom,cayenne,ginger,cottage_cheese,garlic,brassica
+olive_oil,pepper,wheat,onion,beef,cardamom,cumin,garlic,rice,leek
+honey,wheat,yeast
+tomato,cilantro,lemon_juice,onion,cayenne,scallion
+wheat,cassava
+olive_oil,onion,potato,black_pepper,cumin,carrot,cabbage,turmeric
+tomato,fenugreek,pepper,onion,potato,black_pepper,ginger,carrot,garlic,vegetable_oil,cabbage,turmeric
+banana
+cardamom,coconut,pumpkin

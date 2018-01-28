@@ -1,0 +1,9 @@
+butter,coconut,wheat,raisin,walnut,fruit,sesame_seed,cream
+lamb,olive_oil,wheat,onion,black_pepper,cumin,mint
+coriander,olive_oil,cilantro,black_bean,cayenne,chicken_broth,black_pepper,cumin,turkey,chickpea,garlic,parsley,rice,nut,turmeric
+butter,wheat,onion,black_pepper,parsley,garlic,sesame_seed,lard,mozzarella_cheese,egg
+wheat,apple,cinnamon,vegetable_oil,egg,milk
+cocoa,date,coconut,pecan
+butter,roasted_sesame_seed,vanilla,wheat
+butter,vegetable_oil,wheat,egg
+honey,lemon,apple

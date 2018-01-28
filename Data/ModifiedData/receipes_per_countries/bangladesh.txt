@@ -1,0 +1,4 @@
+mustard,onion,cayenne,salmon,vegetable_oil,turmeric
+tomato,cilantro,onion,cayenne,shrimp,garlic,vegetable_oil,turmeric
+coriander,onion,beef,potato,cardamom,cayenne,ginger,bay,garlic,cinnamon,vegetable_oil,rice,turmeric
+coriander,cilantro,wheat,onion,beef,potato,cardamom,black_pepper,cayenne,cumin,ginger,bay,garlic,cinnamon,vegetable_oil,pea,turmeric

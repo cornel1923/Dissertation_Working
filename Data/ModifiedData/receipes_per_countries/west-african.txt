@@ -1,0 +1,13 @@
+tomato,olive_oil,pepper,onion,cayenne,garlic,bell_pepper,vegetable,brown_rice,peanut_butter
+tomato,olive_oil,cane_molasses,onion,vinegar,cayenne,black_pepper,bean,carrot,nutmeg,bell_pepper,tamarind,rice,rosemary,chicken
+chicken_broth,green_bell_pepper,cayenne,peanut_butter,onion
+coriander,olive_oil,onion,potato,black_pepper,cumin,chickpea,garlic,bell_pepper,chicken,peanut_butter
+tomato,olive_oil,pepper,roasted_peanut,onion,garlic,bell_pepper,vegetable,rice,peanut_butter
+egg,coconut,wheat
+coriander,onion,potato,chicken_broth,black_pepper,cumin,garlic,bell_pepper,vegetable_oil,chicken,peanut_butter
+wheat,cassava
+butter,tomato,coconut,roasted_peanut,onion,vinegar,cayenne,vegetable_oil
+coriander,tomato,cilantro,roasted_peanut,onion,cayenne,cumin,ginger,carrot,garlic,cinnamon,sweet_potato,vegetable_oil,peanut_butter
+tomato,thyme,onion,chicken_broth,cayenne,cumin,chickpea,garlic,peanut_butter,sweet_potato,vegetable_oil,rice,zucchini
+tomato,mushroom,onion,chicken_broth,cayenne,peanut_butter,vegetable_oil,chicken
+peanut_oil,tomato,beef,onion,cayenne,shrimp,seed

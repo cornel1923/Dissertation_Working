@@ -1,0 +1,16 @@
+peanut_oil,tomato,onion,garlic,peanut_butter,soybean,rice
+lamb,tomato,cane_molasses,wheat,beef,onion,vinegar,potato,black_pepper,bay,vegetable_oil,tamarind
+chicken,onion
+butter,coriander,pepper,beef,onion,fenugreek,potato,cumin,bay,beef_broth,vinegar,turmeric
+coriander,fenugreek,pepper,meat,onion,apricot,cumin,lamb,yogurt,vegetable_oil,turmeric
+butter,wheat,starch,vanilla,cinnamon,egg,milk
+cane_molasses,vinegar,pepper,onion,fenugreek,black_pepper,red_wine,cayenne,cumin,bay,garlic,cod,vegetable_oil,coriander,turmeric
+coriander,fenugreek,pepper,beef,onion,apricot,raisin,cumin,bay,black_pepper,vegetable_oil,bread,egg,milk,turmeric
+butter,vinegar,wheat,apricot,orange_juice,gelatin,egg,milk,cream
+brandy,peppermint_oil
+butter,coriander,pepper,onion,beef,fenugreek,potato,cumin,bay,beef_broth,vinegar,turmeric
+coriander,fenugreek,pepper,onion,beef,vinegar,black_pepper,almond,raisin,cumin,bay,white_bread,egg,milk,turmeric
+cocoa,vanilla,cream
+butter,rice,raisin,cinnamon,turmeric
+butter,wheat,vanilla,cinnamon,egg,milk
+cardamom,coconut,pumpkin

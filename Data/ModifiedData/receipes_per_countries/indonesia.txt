@@ -1,0 +1,12 @@
+wheat,banana
+tomato,vinegar,cane_molasses,celery_oil,soy_sauce,cayenne,prawn,zucchini,scallion,carrot,garlic,chive,vegetable_oil,rice,egg,corn,sesame_oil
+butter,wheat,rum,vanilla,banana,egg,milk
+onion,starch,soy_sauce,black_pepper,garlic,vegetable_oil,chicken,broccoli,oyster
+tomato,peanut_oil,pepper,vinegar,shallot,cayenne,shrimp,garlic,vegetable_oil,egg
+beef,macadamia_nut,shallot,cayenne,shrimp,garlic,galanga,vegetable_oil,palm,lime
+rice,onion,chicken_broth,cayenne,scallion,garlic,cinnamon,vegetable_oil,bay,turmeric
+honey,butter,coconut,corn,milk
+tomato,peanut_oil,lemon_juice,onion,soy_sauce,black_pepper,cumin,garlic,peanut_butter,vegetable_oil,chicken
+tomato,pepper,sesame_oil,onion,soy_sauce,cayenne,celery,carrot,garlic,cucumber,rice,egg
+coriander,butter,pork,lemon_juice,peanut,soy_sauce,ginger,scallion,honey,garlic,bell_pepper,chicken_broth
+olive_oil,lemon_juice,peanut,soy_sauce,cayenne,scallion,honey,bean,peanut_butter,chicken,rice,chicken_broth

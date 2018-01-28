@@ -1,0 +1,8 @@
+d:\Disertatie\Git\Dissertation\Apriori\Main\bin\Debug\Main.exe.config
+d:\Disertatie\Git\Dissertation\Apriori\Main\bin\Debug\Main.exe
+d:\Disertatie\Git\Dissertation\Apriori\Main\bin\Debug\Main.pdb
+d:\Disertatie\Git\Dissertation\Apriori\Main\bin\Debug\AprioriAlgorithm.dll
+d:\Disertatie\Git\Dissertation\Apriori\Main\bin\Debug\AprioriAlgorithm.pdb
+d:\Disertatie\Git\Dissertation\Apriori\Main\obj\Debug\Main.csprojResolveAssemblyReference.cache
+d:\Disertatie\Git\Dissertation\Apriori\Main\obj\Debug\Main.exe
+d:\Disertatie\Git\Dissertation\Apriori\Main\obj\Debug\Main.pdb

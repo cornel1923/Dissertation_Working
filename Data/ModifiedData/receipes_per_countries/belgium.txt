@@ -1,0 +1,11 @@
+butter,cane_molasses,wheat,almond,ginger,cinnamon,egg
+cane_molasses,wheat,citrus,raisin,walnut,buttermilk,nutmeg,cinnamon,lard
+butter,cane_molasses,wheat,almond,cinnamon,egg
+butter,cane_molasses,wheat,yeast,milk,whole_grain_wheat_flour
+butter,wheat,yeast,vanilla,egg,milk
+butter,vinegar,cane_molasses,wheat,onion,beef,black_pepper,thyme,bay,carrot,mustard,white_wine,bread
+cane_molasses,butter,wheat,vanilla,whiskey,egg
+lemon_juice,wheat,onion,parsley,celery,nutmeg,vegetable_oil,chicken,egg,leek,cream
+butter,wheat,beef,onion,black_pepper,bacon,parsley,beer,garlic,lemon
+lemon,onion,black_pepper,white_wine,celery,carrot,mussel,bay
+butter,cheese,wheat,ham,black_pepper,parsley,parmesan_cheese,chicory,nutmeg,milk

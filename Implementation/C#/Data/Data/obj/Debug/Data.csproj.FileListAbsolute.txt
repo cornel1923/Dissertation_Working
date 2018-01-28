@@ -1,0 +1,12 @@
+c:\users\cornelg\documents\visual studio 2015\Projects\Data\Data\bin\Debug\Data.exe.config
+c:\users\cornelg\documents\visual studio 2015\Projects\Data\Data\bin\Debug\Data.exe
+c:\users\cornelg\documents\visual studio 2015\Projects\Data\Data\bin\Debug\Data.pdb
+c:\users\cornelg\documents\visual studio 2015\Projects\Data\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+c:\users\cornelg\documents\visual studio 2015\Projects\Data\Data\obj\Debug\Data.exe
+c:\users\cornelg\documents\visual studio 2015\Projects\Data\Data\obj\Debug\Data.pdb
+D:\Disertatie\Full_Data\Recieps\Data\Data\bin\Debug\Data.exe.config
+D:\Disertatie\Full_Data\Recieps\Data\Data\obj\Debug\Data.exe
+D:\Disertatie\Full_Data\Recieps\Data\Data\obj\Debug\Data.pdb
+D:\Disertatie\Full_Data\Recieps\Data\Data\bin\Debug\Data.exe
+D:\Disertatie\Full_Data\Recieps\Data\Data\bin\Debug\Data.pdb
+D:\Disertatie\Full_Data\Recieps\Data\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache

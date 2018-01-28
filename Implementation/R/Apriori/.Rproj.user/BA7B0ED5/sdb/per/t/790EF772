@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "library(Matrix)\nlibrary(arules)\nlibrary(dplyr)\n\n#data = read.table(\"caribbean.txt\", sep=\"\\n\");\n#write(data, file = \"data\", sept);\n\ntrans = read.transactions(\"all_categories.txt\", format = \"basket\", sep=\",\");\n\ninspect(trans);\n#---------------#\nitemFrequencyPlot(trans,topN=20,type=\"absolute\")\n\n#---------------#\n\nrules = apriori(trans, parameter=list(support=0.02, confidence=0.9, minlen=2));\n\nrules <- sort(rules, by =\"lift\")\nrules<-sort(rules, by=\"confidence\", decreasing=TRUE)\n\ndata <- as(rules, \"data.frame\")\n\nwrite.csv(file=\"Test\", x=data)\n\n#---------------#\narules<-apriori(trans, parameter=list(supp=0.001,conf = 0.08), \n               appearance = list(default=\"lhs\",rhs=\"olive_oil\"),\n               control = list(verbose=F))\nrules<-sort(rules, decreasing=TRUE,by=\"confidence\")\ninspect(rules[1:5])\n\n#---------------#\n#---------------#\nrules<-apriori(data=trans, parameter=list(supp=0.001,conf = 0.15,minlen=2), \n               appearance = list(default=\"rhs\",lhs=\"rice\"),\n               control = list(verbose=F))\nrules<-sort(rules, decreasing=TRUE,by=\"confidence\")\ninspect(rules[1:5])\n#---------------#\n\n#---------------#\nlibrary(arulesViz)\nplot(rules,method=\"graph\",interactive=TRUE,shading=NA)\n\n\nlibrary(arulesViz)\nlibrary(grid)\nplot(rules)\nplot(rules, method = \"grouped\", control = list(k = 5))\nplot(rules, method=\"graph\", control=list(type=\"items\"))\nplot(rules, method=\"graph\", control=list(type=\"itemsets\"))\nplot(rules, method=\"paracoord\",  control=list(alpha=.5, reorder=TRUE))\nplot(rules,measure=c(\"support\",\"lift\"),shading=\"confidence\",interactive=T)\n",
+    "created" : 1480578190801.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2924908267",
+    "id" : "790EF772",
+    "lastKnownWriteTime" : 1480578776,
+    "last_content_update" : 1480578776669,
+    "path" : "D:/Disertatie/Git/Implementation/R/Apriori/Main.R",
+    "project_path" : "Main.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
