@@ -5,6 +5,7 @@
 #install.packages("sets")
 #install.packages("networkD3")
 #install.packages("zoom")
+#install.packages("rworldmap")
 
 library(ggraph)
 library(igraph)
@@ -13,83 +14,49 @@ library(disparityfilter)
 library(sets)
 library(networkD3)
 library(zoom)
+library(rworldmap)
+library(RColorBrewer)
 
 #map.txt
 regions = read.csv(file.choose(),header=TRUE, sep=",")
+regions$Country =  as.character(regions$Country)
 
-source <-regions$Region;
-target <-regions$Country;
+regions$Country[regions$Country == 'EasternEuropean_Russian'] <- 'Russia' 
+regions$Country[regions$Country == 'UK-and-Ireland'] <- 'United Kingdom' 
+regions$Country[regions$Country == 'Greek'] <- 'Greece' 
+regions$Country[regions$Country == 'Moroccan'] <- 'Morocco' 
+regions<-rbind(regions, data.frame(Country='Ireland',Region='WesternEuropean'))
 
-label1 = c();
-label2 = c();
+regions$Country =  as.factor(regions$Country)
 
-size1 = c();
-size2 = c();
+allData <- joinCountryData2Map(regions, joinCode = "NAME", nameJoinColumn = "Country",nameCountryColumn = "Name")
+DATA = allData;
+n = length(DATA$Country);
 
-for(i in 1:length(unique(source))) {
-  label1[i] = 'green';
-  size1[i] = 1;
-}
+DATA <- DATA[!is.na(DATA$Country),]
+colors = rainbow(n, s = 1, v = 0.5, start = 0, end = max(1, n - 1)/n, alpha = 1)
 
-for(i in 1:length(unique(target))) {
-  size2[i] = 5;
-  label2[i] = 'red';
-}
+#colors = c();
+#qual_col_pals = brewer.pal.info[brewer.pal.info$category == 'qual',]
+#col_vector = unlist(mapply(brewer.pal, qual_col_pals$maxcolors, rownames(qual_col_pals)))
+#color = grDevices::colors()[grep('gr(a|e)y', grDevices::colors(), invert = T)]
 
-array = c(array(unique(source)), array(unique(target)));
+#for(i in 1:length(allData$Country)) {
+  #colors[i] = color[i];
+#}
 
-name <-unique(array)
-data = c(array(size1), array(size2));
-group = c(array(label1), array(label2));
+mapCountryData(DATA
+                , nameColumnToPlot='NAME'
+                , catMethod = 'categorical'
+                , mapTitle='Countries'
+                , colourPalette=colors
+                , oceanCol='white',
+                  missingCountryCol = "red"
+                , addLegend  = FALSE)
 
+# get the coordinates for each country
+country_coord<-data.frame(coordinates(DATA),stringsAsFactors=F)
+# label the countries
+text(x=country_coord$X1,y=country_coord$X2,labels=row.names(country_coord), 
+     cex = 0.2, col = "white")
 
-MisLinks <- data.frame(source, target)
-
-networkD3::simpleNetwork(MisLinks,
-                         fontSize =20,linkDistance = 100);
-
-MisNodes <- data.frame(name, data, group)
-
-as.numeric(factor(MisLinks$source))-1
-as.numeric(factor("aa"))-1
-
-el <- data.frame(from=as.numeric(factor(MisLinks$source))-1, 
-                 to=as.numeric(factor(MisLinks$target)))
-nl <- cbind(idn=factor(MisNodes$name, levels=MisNodes$name), MisNodes) 
-
-
-networkD3::forceNetwork(Links = el, Nodes = nl,
-                        linkDistance =1, 
-                        Source = "from", Target = "to",
-                        NodeID = "name",
-                        Nodesize = "data",
-                        Group = "group",
-                        bounded = TRUE,
-                        opacityNoHover = TRUE,
-                        width = 800, height = 400,
-                        opacity = 1);
-
-graphData = data.frame(source, target)
-
-g <- graph.empty(directed = F)
-
-node.in <- as.character(graphData$source);
-node.out <- as.character(graphData$target);
-
-g <- add.vertices(g,nv=length(node.out),attr=list(name=node.out),type=rep(FALSE,length(node.out)))
-g <- add.vertices(g,nv=length(node.in),attr=list(name=node.in),type=rep(TRUE,length(node.in)))
-edge.list.vec <- as.vector(t(as.matrix(data.frame(graphData))))
-g <- add.edges(g,edge.list.vec)
-
-g = delete.vertices(simplify(g), degree(g) == 0);
-
-# define color and shape mappings.
-col <- c("steelblue", "orange")
-shape <- c("none")
-
-png("mygraph.png", heigh=1000, width=800)
-
-plot.igraph(g,vertex.shape=shape, vertex.color="red", vertex.size = 25,
-            edge.color = "green", vertex.label.color= "red")
-
-dev.off()
