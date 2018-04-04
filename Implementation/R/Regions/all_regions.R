@@ -58,5 +58,5 @@ mapCountryData(DATA
 country_coord<-data.frame(coordinates(DATA),stringsAsFactors=F)
 # label the countries
 text(x=country_coord$X1,y=country_coord$X2,labels=row.names(country_coord), 
-     cex = 0.2, col = "white")
+     cex = 0.2, col = "black")
 
